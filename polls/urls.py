@@ -7,4 +7,3 @@ urlpatterns = [
     path("poll/<int:pk>", view=PollDetail.as_view(), name="poll_detail")
 ]
 
-
